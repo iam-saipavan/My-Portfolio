@@ -688,7 +688,7 @@ export const Hero = () => {
               >
                 <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/profile.png"
+                    src={`${import.meta.env.BASE_URL}profile.png`}
                     alt="Profile Image"
                     className="w-full h-full object-cover rounded-full"
                   />
