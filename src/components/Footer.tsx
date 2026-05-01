@@ -15,7 +15,7 @@ export const Footer = () => {
             className="text-center md:text-left"
           >
             <h3 className="text-xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent mb-2">
-              Chettim Chetty Hemasri 
+              Sai Pavan Vajja  
             </h3>
             <p className="text-slate-400 text-sm">
               Building the future with AI and innovation
@@ -75,7 +75,7 @@ export const Footer = () => {
             </div>
             
             {/* Portfolio Link */}
-            <div className="mt-4 text-center md:text-right">
+            {/* <div className="mt-4 text-center md:text-right">
               <p className="text-slate-300 text-sm mb-2">Product Designer Portfolio</p>
               <motion.a
                 href={personalInfo.portfolio}
@@ -86,7 +86,7 @@ export const Footer = () => {
               >
                 <ExternalLink size={20} />
               </motion.a>
-            </div>
+            </div> */}
           </motion.div>
         </div>
         

@@ -43,7 +43,8 @@ export const Publications = () => {
               Research <span className="bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">Publications</span>
             </h2>
             <p className="text-lg text-slate-300 max-w-2xl mx-auto">
-              Contributing to the advancement of AI and technology through research
+              {/* Contributing to the advancement of AI and technology through research */}
+              MLOps-Based Cloud Deployment Pipeline for Scalable ML Workloads
             </p>
           </motion.div>
           

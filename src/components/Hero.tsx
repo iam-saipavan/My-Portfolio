@@ -595,7 +595,7 @@ export const Hero = () => {
               className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-8"
             >
               <motion.a
-                href="https://drive.google.com/file/d/1LFwjbMwhHVFo6jgLHfKYmjLTeOKOl7rT/view?usp=sharing"
+                href="https://drive.google.com/file/d/16MpsIrjKCnGwDXHAWbrMG3rU7qh-tEOx/view?usp=drive_link"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.05, boxShadow: '0 0 30px rgba(59, 130, 246, 0.5)' }}
@@ -648,7 +648,7 @@ export const Hero = () => {
               transition={{ duration: 0.8, delay: 1.6 }}
               className="flex items-center gap-3 justify-center lg:justify-start mt-4"
             >
-              <p className="text-slate-300 text-sm">Product Designer Portfolio</p>
+              {/* <p className="text-slate-300 text-sm">Product Designer Portfolio</p> */}
               <motion.a
                 href={personalInfo.portfolio}
                 target="_blank"
@@ -656,7 +656,7 @@ export const Hero = () => {
                 whileHover={{ scale: 1.2, y: -5 }}
                 className="p-3 bg-slate-800 text-slate-400 hover:text-white rounded-lg transition-all duration-300 hover:bg-slate-700"
               >
-                <ExternalLink size={24} />
+                {/* <ExternalLink size={24} /> */}
               </motion.a>
             </motion.div>
           </motion.div>
@@ -689,7 +689,7 @@ export const Hero = () => {
                 <div className="w-full h-full rounded-full bg-slate-800 flex items-center justify-center overflow-hidden">
                   <img
                     src="/profile.png"
-                    alt="Chettim Chetty Hemasri"
+                    alt="Profile Image"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>

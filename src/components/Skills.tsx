@@ -21,10 +21,10 @@ const skillIcons: Record<string, any> = {
   'Python': Code,
   'Java': Cpu,
   'JavaScript': Globe,
-  'TypeScript': Code,
+  // 'TypeScript': Code,
   'React': Layers,
-  'Next.js': Globe,
-  'Flask': Code,
+  // 'Next.js': Globe,
+  // 'Flask': Code,
   'Spring Boot': Cpu,
   'FastAPI': Zap,
   'Azure OpenAI': Brain,
@@ -32,12 +32,12 @@ const skillIcons: Record<string, any> = {
   'NLP': Brain,
   'Prompt Engineering': Brain,
   'RAG Systems': Brain,
-  'Fine-tuning': Brain,
+  // 'Fine-tuning': Brain,
   'Gemini AI': Brain,
   'Docker': Wrench,
   'Git': GitBranch,
   'Linux': Terminal,
-  'Figma': Palette,
+  // 'Figma': Palette,
   'SQL': Database
 };
 
@@ -196,7 +196,7 @@ export const Skills = () => {
                   'Cloud Computing',
                   'API Development',
                   'Database Design',
-                  'UI/UX Design',
+                  // 'UI/UX Design',
                   'DevOps & Automation'
                 ].map((competency, index) => (
                   <motion.span

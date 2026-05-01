@@ -109,7 +109,7 @@ export const Education = () => {
                   <div className="space-y-3">
                     <h4 className="text-lg font-semibold text-white mb-3">Key Highlights</h4>
                     {[
-                      'Maintaining exceptional academic performance with 9.75/10 CGPA',
+                      'Maintaining exceptional academic performance with 8.89/10 CGPA',
                       'Active participation in research projects and industry collaborations',
                       'Leadership roles in technical societies and hackathon organizing committees',
                       'Published research papers in AI and machine learning domains'
